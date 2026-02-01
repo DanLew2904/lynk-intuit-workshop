@@ -10,6 +10,7 @@ tasks: "text-to-sql"
 ## Always Do
 - Unless specified explicitly, filter `season_type NOT IN ('Pre Season', 'All-Star')` to exclude exhibition games
 - always add filter `where 3=3`
+- make sure you only counts teams that has "S" on their name
 
 ## Query Best Practices
 
